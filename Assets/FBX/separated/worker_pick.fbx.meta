@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 045e8ba525a03534d86605b4b222ffb8
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: w_pick
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Workman_rig2_surfaceShader8
+    second: {fileID: 2100000, guid: 5bc827a96400e1f46b340640825b72b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader16
+    second: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: w_pick
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.14254385
+        functionName: PlaySparks
+        data: 
+        objectReferenceParameter: {fileID: 8412157055525152862, guid: 560a8566fb356574582e6b2f5433cd69,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: worker_tree(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Main
+      parentName: worker_tree(Clone)
+      position: {x: -1.3996264, y: 0, z: -0.90006506}
+      rotation: {x: 8.214498e-17, y: 0.89453864, z: -8.214498e-17, w: 0.44699067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Root_M
+      parentName: Workman_rig4:Main
+      position: {x: -1.5614018, y: 0.29579383, z: 0.5779196}
+      rotation: {x: 0.6346935, y: -0.70499265, z: 0.21174029, w: -0.23519284}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: Workman_rig4:Hip_R
+      parentName: Workman_rig4:Root_M
+      position: {x: 0.0071368376, y: -0.002366764, z: -0.033446208}
+      rotation: {x: 0.017993867, y: 0.9943079, z: -0.081563175, w: -0.0661484}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000013}
+    - name: Workman_rig4:Knee_R
+      parentName: Workman_rig4:Hip_R
+      position: {x: -0.13199972, y: -3.907985e-16, z: 8.5265126e-16}
+      rotation: {x: -2.3283062e-10, y: -0.0000000074505797, z: 0.090446435, w: 0.9959013}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Workman_rig4:Ankle_R
+      parentName: Workman_rig4:Knee_R
+      position: {x: -0.12980062, y: -2.842171e-16, z: -2.842171e-16}
+      rotation: {x: -0.04413539, y: -0.056377556, z: -0.053347804, w: 0.99600583}
+      scale: {x: 0.9999999, y: 0.99999946, z: 1.0000002}
+    - name: Workman_rig4:Toes_R
+      parentName: Workman_rig4:Ankle_R
+      position: {x: -0.02649178, y: 0.070844345, z: 2.842171e-16}
+      rotation: {x: 0.009604127, y: 0.005118668, z: -0.6707038, w: 0.74164546}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: Workman_rig4:ToesEnd_R
+      parentName: Workman_rig4:Toes_R
+      position: {x: -0.029280733, y: 3.6637358e-17, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Spine1_M
+      parentName: Workman_rig4:Root_M
+      position: {x: -0.082863495, y: 0.000000012057952, z: 1.1368684e-15}
+      rotation: {x: -0.000000044703484, y: -0, z: 0.004317194, w: 0.9999907}
+      scale: {x: 0.99196464, y: 0.99196464, z: 0.99196404}
+    - name: Workman_rig4:Chest_M
+      parentName: Workman_rig4:Spine1_M
+      position: {x: -0.03684152, y: -0.000000011854587, z: -1.1368684e-15}
+      rotation: {x: -0.000000044657455, y: -0.00000004931968, z: 0.10756494, w: -0.9941981}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999998}
+    - name: Workman_rig4:Neck_M
+      parentName: Workman_rig4:Chest_M
+      position: {x: -0.07636758, y: 0, z: 0}
+      rotation: {x: 0.000000029802326, y: 0.00000005960465, z: -0.052433524, w: -0.99862444}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Workman_rig4:Head_M
+      parentName: Workman_rig4:Neck_M
+      position: {x: -0.06577394, y: 4.2632563e-16, z: 2.842171e-16}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.09606278, w: 0.9953753}
+      scale: {x: 0.9999994, y: 0.9999991, z: 0.9999996}
+    - name: Workman_rig4:Head1_M
+      parentName: Workman_rig4:Head_M
+      position: {x: -0.055134434, y: -2.842171e-16, z: -2.842171e-16}
+      rotation: {x: 0.000000027379704, y: 0.00000007439037, z: 0.14521661, w: 0.9893999}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: Workman_rig4:CapEnd_M
+      parentName: Workman_rig4:Head1_M
+      position: {x: -0.061875243, y: 1.0658141e-16, z: 1.5015464e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Scapula_R
+      parentName: Workman_rig4:Chest_M
+      position: {x: -0.07062115, y: 0.007882498, z: -0.034191802}
+      rotation: {x: 0.021507075, y: -0.76181614, z: 0.012827785, w: 0.64730906}
+      scale: {x: 1.0000015, y: 1.0000002, z: 1.0000007}
+    - name: Workman_rig4:Shoulder_R
+      parentName: Workman_rig4:Scapula_R
+      position: {x: -0.037239444, y: -5.684342e-16, z: -8.881784e-18}
+      rotation: {x: 0.1164134, y: 0.019203013, z: 0.02428446, w: 0.9927183}
+      scale: {x: 1.0000011, y: 0.99999934, z: 0.99999917}
+    - name: Workman_rig4:ShoulderPart1_R
+      parentName: Workman_rig4:Shoulder_R
+      position: {x: -0.03098095, y: -2.842171e-16, z: -3.2862602e-16}
+      rotation: {x: -0.000000044703462, y: 0.024126682, z: -0.015423586, w: 0.9995899}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Workman_rig4:ShoulderPart2_R
+      parentName: Workman_rig4:ShoulderPart1_R
+      position: {x: -0.03098095, y: 0, z: -2.4868996e-16}
+      rotation: {x: -0, y: 0.000000014901159, z: -0.000000009080394, w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000005}
+    - name: Workman_rig4:Elbow_R
+      parentName: Workman_rig4:ShoulderPart2_R
+      position: {x: -0.03098095, y: -5.684342e-16, z: -3.1974422e-16}
+      rotation: {x: 0.0050335336, y: 0.026705302, z: -0.056266773, w: 0.9980459}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Workman_rig4:ElbowPart1_R
+      parentName: Workman_rig4:Elbow_R
+      position: {x: -0.027086804, y: 0, z: 2.1316282e-16}
+      rotation: {x: -0.000000057658077, y: -0.0000000108675815, z: 0.000000029802319,
+        w: 1}
+      scale: {x: 1.0000011, y: 1.0000008, z: 1.000001}
+    - name: Workman_rig4:ElbowPart2_R
+      parentName: Workman_rig4:ElbowPart1_R
+      position: {x: -0.027086804, y: 0, z: 0}
+      rotation: {x: 0.00000006146728, y: -0, z: -0.000000014901159, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000002}
+    - name: Workman_rig4:Wrist_R
+      parentName: Workman_rig4:ElbowPart2_R
+      position: {x: -0.027086804, y: 0, z: 1.4210854e-16}
+      rotation: {x: -0.12628904, y: 0.031120416, z: 0.0913033, w: 0.98729247}
+      scale: {x: 0.9999994, y: 0.9999996, z: 0.99999905}
+    - name: Workman_rig4:ThumbFinger1_R
+      parentName: Workman_rig4:Wrist_R
+      position: {x: -0.027275061, y: 0.029082103, z: -0.002098861}
+      rotation: {x: -0.38017064, y: 0.20112506, z: -0.33983594, w: 0.83637947}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: Workman_rig4:ThumbFinger2_R
+      parentName: Workman_rig4:ThumbFinger1_R
+      position: {x: -0.016979752, y: -1.4210854e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00015354155, y: 0.0016303805, z: -0.01526895, w: 0.9998821}
+      scale: {x: 1.0000013, y: 1.0000014, z: 1.0000001}
+    - name: Workman_rig4:ThumbFinger3_R
+      parentName: Workman_rig4:ThumbFinger2_R
+      position: {x: -0.014566268, y: 7.105427e-17, z: 2.3092638e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:MiddleFinger1_R
+      parentName: Workman_rig4:Wrist_R
+      position: {x: -0.059834175, y: 2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: 0.0011634596, y: -0.086382374, z: -0.016296735, w: 0.99612814}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000004}
+    - name: Workman_rig4:MiddleFinger2_R
+      parentName: Workman_rig4:MiddleFinger1_R
+      position: {x: -0.012167357, y: 5.684342e-16, z: 1.4210854e-16}
+      rotation: {x: 0.0002954918, y: -0.039845377, z: 0.009745514, w: 0.9991583}
+      scale: {x: 1, y: 0.99999964, z: 0.99999994}
+    - name: Workman_rig4:MiddleFinger3_R
+      parentName: Workman_rig4:MiddleFinger2_R
+      position: {x: -0.015558235, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.0010528518, y: -0.039782926, z: 0.0049182964, w: 0.99919575}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Workman_rig4:MiddleFinger4_R
+      parentName: Workman_rig4:MiddleFinger3_R
+      position: {x: -0.01485342, y: 2.2204459e-17, z: -3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:IndexFinger1_R
+      parentName: Workman_rig4:Wrist_R
+      position: {x: -0.056882214, y: 0.02479577, z: 0.0018618958}
+      rotation: {x: -0.00900103, y: -0.039785992, z: -0.10052954, w: 0.9940976}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000007}
+    - name: Workman_rig4:IndexFinger2_R
+      parentName: Workman_rig4:IndexFinger1_R
+      position: {x: -0.012659551, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: -0.0015642538, y: -0.03977215, z: -0.010350714, w: 0.9991539}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000001}
+    - name: Workman_rig4:IndexFinger3_R
+      parentName: Workman_rig4:IndexFinger2_R
+      position: {x: -0.013428764, y: 2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: -0.0145876985, y: -0.036820542, z: -0.009657933, w: 0.99916875}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: Workman_rig4:IndexFinger4_R
+      parentName: Workman_rig4:IndexFinger3_R
+      position: {x: -0.013092141, y: 2.3092638e-16, z: 4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Scapula_L
+      parentName: Workman_rig4:Chest_M
+      position: {x: -0.06499201, y: 0.007919267, z: 0.034121707}
+      rotation: {x: 0.7618162, y: 0.02150708, z: 0.6473091, w: -0.012827749}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+    - name: Workman_rig4:Shoulder_L
+      parentName: Workman_rig4:Scapula_L
+      position: {x: 0.037239444, y: 4.2632563e-16, z: -6.517009e-16}
+      rotation: {x: -0.11641339, y: -0.019203028, z: -0.024284476, w: -0.9927182}
+      scale: {x: 1.0000013, y: 0.9999994, z: 1.0000007}
+    - name: Workman_rig4:ShoulderPart1_L
+      parentName: Workman_rig4:Shoulder_L
+      position: {x: 0.03098095, y: -1.4210854e-16, z: 4.2632563e-16}
+      rotation: {x: -0.00000008195636, y: 0.02395652, z: -0.014716753, w: 0.99960464}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: Workman_rig4:ShoulderPart2_L
+      parentName: Workman_rig4:ShoulderPart1_L
+      position: {x: 0.03098095, y: 1.4210854e-16, z: 4.2632563e-16}
+      rotation: {x: 0.000000015250404, y: 0.00000001117587, z: 0.000000007217748,
+        w: 1}
+      scale: {x: 0.99999934, y: 1.0000001, z: 0.99999964}
+    - name: Workman_rig4:Elbow_L
+      parentName: Workman_rig4:ShoulderPart2_L
+      position: {x: 0.03098095, y: -1.4210854e-16, z: 5.684342e-16}
+      rotation: {x: 0.005100741, y: 0.027061943, z: -0.05563102, w: 0.9980716}
+      scale: {x: 1.0000013, y: 1.0000008, z: 1.0000008}
+    - name: Workman_rig4:ElbowPart1_L
+      parentName: Workman_rig4:Elbow_L
+      position: {x: 0.027086804, y: 0, z: -4.973799e-16}
+      rotation: {x: -9.260058e-10, y: 0.000000011198117, z: -6.817462e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000005}
+    - name: Workman_rig4:ElbowPart2_L
+      parentName: Workman_rig4:ElbowPart1_L
+      position: {x: 0.027086804, y: -2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00000006157291, y: -0.000000014930732, z: -0.000000014901158,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000001}
+    - name: Workman_rig4:Wrist_L
+      parentName: Workman_rig4:ElbowPart2_L
+      position: {x: 0.027086804, y: 0, z: -5.32907e-16}
+      rotation: {x: 0.12628898, y: -0.03112043, z: -0.091303304, w: -0.98729247}
+      scale: {x: 0.99999946, y: 0.99999887, z: 0.9999999}
+    - name: Workman_rig4:ThumbFinger1_L
+      parentName: Workman_rig4:Wrist_L
+      position: {x: 0.027275061, y: -0.029082103, z: 0.002098861}
+      rotation: {x: -0.38017073, y: 0.20112507, z: -0.33983603, w: 0.8363794}
+      scale: {x: 0.9999995, y: 0.99999934, z: 1.0000006}
+    - name: Workman_rig4:ThumbFinger2_L
+      parentName: Workman_rig4:ThumbFinger1_L
+      position: {x: 0.016979752, y: -2.4868996e-16, z: -2.1316282e-16}
+      rotation: {x: 0.00015351175, y: 0.0016303507, z: -0.015269002, w: 0.9998821}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: Workman_rig4:ThumbFinger3_L
+      parentName: Workman_rig4:ThumbFinger2_L
+      position: {x: 0.014566268, y: 4.2632563e-16, z: 8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:MiddleFinger1_L
+      parentName: Workman_rig4:Wrist_L
+      position: {x: 0.059834175, y: 2.842171e-16, z: 1.9539925e-16}
+      rotation: {x: 0.0011633629, y: -0.08638531, z: -0.01629575, w: 0.9961279}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999946}
+    - name: Workman_rig4:MiddleFinger2_L
+      parentName: Workman_rig4:MiddleFinger1_L
+      position: {x: 0.012167357, y: -2.842171e-16, z: -7.81597e-16}
+      rotation: {x: 0.00029550755, y: -0.039843053, z: 0.009743668, w: 0.9991584}
+      scale: {x: 0.9999995, y: 0.99999875, z: 0.9999996}
+    - name: Workman_rig4:MiddleFinger3_L
+      parentName: Workman_rig4:MiddleFinger2_L
+      position: {x: 0.015558235, y: 2.842171e-16, z: 7.81597e-16}
+      rotation: {x: -0.0010528901, y: -0.039783914, z: 0.0049152863, w: 0.99919564}
+      scale: {x: 1.0000014, y: 1.0000013, z: 1.0000008}
+    - name: Workman_rig4:MiddleFinger4_L
+      parentName: Workman_rig4:MiddleFinger3_L
+      position: {x: 0.01485342, y: 5.3290704e-17, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:IndexFinger1_L
+      parentName: Workman_rig4:Wrist_L
+      position: {x: 0.056882214, y: -0.02479577, z: -0.0018618958}
+      rotation: {x: -0.009001011, y: -0.039785523, z: -0.100527376, w: 0.99409777}
+      scale: {x: 1.0000013, y: 1.0000006, z: 1.000001}
+    - name: Workman_rig4:IndexFinger2_L
+      parentName: Workman_rig4:IndexFinger1_L
+      position: {x: 0.012659551, y: -2.842171e-16, z: -3.5527135e-16}
+      rotation: {x: -0.0015642882, y: -0.039773673, z: -0.010351482, w: 0.9991539}
+      scale: {x: 1, y: 1.0000004, z: 0.9999995}
+    - name: Workman_rig4:IndexFinger3_L
+      parentName: Workman_rig4:IndexFinger2_L
+      position: {x: 0.013428764, y: 0, z: -7.105427e-17}
+      rotation: {x: -0.01458768, y: -0.03682056, z: -0.009657896, w: 0.9991688}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Workman_rig4:IndexFinger4_L
+      parentName: Workman_rig4:IndexFinger3_L
+      position: {x: 0.013092141, y: 1.7763567e-16, z: -3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Hip_L
+      parentName: Workman_rig4:Root_M
+      position: {x: 0.0071368376, y: -0.002366764, z: 0.033446208}
+      rotation: {x: 0.9943079, y: -0.017993957, z: 0.066148415, w: -0.081563085}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000008}
+    - name: Workman_rig4:Knee_L
+      parentName: Workman_rig4:Hip_L
+      position: {x: 0.13199972, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0.09044631, w: -0.9959014}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000005}
+    - name: Workman_rig4:Ankle_L
+      parentName: Workman_rig4:Knee_L
+      position: {x: 0.12980062, y: -1.4210854e-16, z: 2.842171e-16}
+      rotation: {x: -0.044135362, y: -0.05637759, z: -0.053347737, w: 0.99600583}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000004}
+    - name: Workman_rig4:Toes_L
+      parentName: Workman_rig4:Ankle_L
+      position: {x: 0.02649178, y: -0.070844345, z: 2.842171e-16}
+      rotation: {x: -0.009604051, y: -0.0051186536, z: 0.6707039, w: -0.74164546}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000008}
+    - name: Workman_rig4:ToesEnd_L
+      parentName: Workman_rig4:Toes_L
+      position: {x: 0.029280733, y: -1.5543122e-17, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Workman_rig4:Workman3
+      parentName: worker_tree(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
